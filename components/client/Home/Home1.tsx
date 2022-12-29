@@ -6,22 +6,6 @@ type Props = {}
 const Home1 = (props: Props) => {
     const content1 = "Transform Your Idea Into Reality with Finsweet"
     const content1_2 = "The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude."
-    const content2 = [{
-        icon: "",
-        title: ""
-    },
-    {
-        icon: "",
-        title: ""
-    }
-        , {
-        icon: "",
-        title: ""
-    }
-        , {
-        icon: "",
-        title: ""
-    }]
     return (
         <div className='w-[100%]  bg-[#232536]'>
             <div className=' text-white max-w-[1280px]  px-3 items-center  mx-auto md:py-[96px] py-[10px]'>
