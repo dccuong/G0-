@@ -46,11 +46,11 @@ const Header = (props: Props) => {
       }
     })
   }, [])
-  const logo = "go+"
+
   return (
-    <>
-      <div className={showNav ? 'transition-transform flex justify-between items-center bg-[#232536] px-[10%] py-5 border-b-2 border-gray-600 shadow-md' : "hidden"} >
-        <div className='logo'>{logo}</div>
+    <div className='w-[100%] bg-[#232536] shadow-sm'>
+      <div className={showNav ? 'transition-transform flex justify-between items-center max-w-[1280px] pl-3 mx-auto py-3 ' : "hidden"} >
+      <div className='logo'><Link href='/'> <img className='w-11' src="./logo.png" alt="" /></Link></div>
         <div className='md:block hidden'> <Menu /></div>
         <div className='md:hidden block '>
      
@@ -74,8 +74,8 @@ const Header = (props: Props) => {
         </div>
       </div>
 
-      <div className={showNav1 ? 'flex justify-between items-center bg-[#232536] px-[10%] py-7' : "hidden"} >
-        <div className='logo'>{logo}</div>
+      <div className={showNav1 ? 'flex justify-between items-center max-w-[1280px] pl-3 mx-auto py-3' : "hidden"} >
+      <div className='logo'><Link href='/'> <img className='w-11' src="./logo.png" alt="" /></Link></div>
         <div className='md:block hidden'> <Menu /></div>
         <div className='md:hidden block '>
         
@@ -99,7 +99,7 @@ const Header = (props: Props) => {
 
       </div>
 
-    </>
+    </div>
   )
 }
 

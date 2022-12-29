@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import Footer from '../../components/Layout/footer/Footer'
-
 type Props = {}
 
 const Blog = (props: Props) => {

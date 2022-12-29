@@ -59,9 +59,9 @@ const index = (props: Props) => {
                     <div className='px-3 py-4 my-3'>
                         <p className='opacity-60'>Contact us</p>
                         <hr className='opacity-25 my-3' />
-                        <p className='text-[16px]'>020 7993 2905
+                        <p className='text-[16px]'>0977 112 143
                         <br />
-                            Hello@ether.com</p>
+                        contact@bkplussoft.com</p>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.681699829565!2d105.80411271445428!3d21.005392593952617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac98b1de85dd%3A0x48e594483498f9fd!2zMjYgTmcuIDIzIEzDqiBWxINuIEzGsMahbmcsIE5ow6JuIENow61uaCwgVGhhbmggWHXDom4sIEjDoCBO4buZaSAxMDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1671596793206!5m2!1sen!2s" width="100%" height="300" style={{ border: 0 }} loading="lazy" ></iframe>
                 </div>
